@@ -1,5 +1,5 @@
 const express = require('express'); 
-const app = express.Router(); 
+const router = express.Router(); 
 
 
 router.get('/', (req, res) => {
@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
 })
 
 router.get('/me', (req, res) => {
-    res.send('<h1>About Me</h1>'); 
+    res.send("About Me"); 
   })
 
 
